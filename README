@@ -1,0 +1,11 @@
+The example program from graphics-drawingcombinators, adapted to also build on on mac OSX.
+"make" should build an executable that works on Mac OSX, using hsSDL's recommended workaround.
+"cabal install" does not yet, patches welcome.
+
+An example font is provided; to use it, run from the source directory:
+
+ graphics-drawingcombinators-example$ graphics-drawingcombinators-example
+
+Otherwise, specify the path to a .ttf file:
+
+ $ graphics-drawingcombinators-example somefont.ttf

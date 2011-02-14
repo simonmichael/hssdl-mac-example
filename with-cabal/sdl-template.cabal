@@ -1,0 +1,21 @@
+Name:          sdl-template
+Version:       0.1
+Synopsis:      A template for SDL applications that works in OS X.
+Description:   A template project for Haskell SDL applications with the appropriate workings for OS X.
+License:       BSD3
+License-File:  LICENSE
+Author:        Joe Bloggs
+Maintainer:    Joe Bloggs <joe@some.where
+Build-Depends: base < 4, OGL >= 0.0.0 && < 0.1, SDL >= 0.5.4 && < 0.6
+Build-Type:    Simple
+Category:      Games
+Extra-source-files: bundle.sh
+
+Executable:     myApp
+HS-Source-Dirs: src
+Main-Is:        HSMain.hs
+Other-modules:  Main
+GHC-Options:    -no-hs-main -Wall
+C-Sources:      src/main.c
+Extra-Libraries: SDLmain
+Includes:       src/HSMain_stub.h

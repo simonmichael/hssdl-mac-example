@@ -6,7 +6,7 @@ License:       BSD3
 License-File:  LICENSE
 Author:        Joe Bloggs
 Maintainer:    Joe Bloggs <joe@some.where
-Build-Depends: base < 4, OGL >= 0.0.0 && < 0.1, SDL >= 0.5.4 && < 0.6
+Build-Depends: base < 4, OGL >= 0.0.0 && < 0.1, SDL >= 0.5.4 && < 0.7
 Build-Type:    Simple
 Category:      Games
 Extra-source-files: bundle.sh
